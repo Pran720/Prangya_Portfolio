@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+  <nav>
+    <h2>Prangya</h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home -->
+  <section class="home" id="home">
+    <div class="home-text reveal">
+      <h1>Hi, I'm Prangya👋</h1>
+      <h3>Web & Software Developer</h3>
+      <p>
+        I'm a passionate fresher developer skilled in HTML, CSS, JavaScript, Java, and MySQL.
+      </p>
+      <a href="#projects" class="btn">View Projects</a>
+    </div>
+
+
+       <div class="home-img-wrapper">
+
+  <div class="home-img">
+    <img src="mee.jpg" alt="Pinku Profile Photo">
+  </div>
+
+  <a href="PRANGYA PARAMITA BEHERA (1).pdf" download class="download-btn">
+    Download CV
+  </a>
+
+</div>
+
+
+  </section>
+
+  <!-- About -->
+ <section id="about" class="about">
+
+  <h2 class="section-title">About Me</h2>
+
+  <p class="about-text">
+    I am a passionate MCA student and aspiring software developer with strong
+    knowledge of web technologies and programming. I enjoy building modern,
+    user-friendly, and dynamic web applications.
+  </p>
+
+  <!-- 🔥 Skills & Tools Box -->
+ <div class="skills-box">
+  <h3>Skills & Tools</h3>
+
+  <div class="skills-grid">
+
+    <div class="skill-card">
+      <i class="fab fa-html5"></i>
+      <span>HTML</span>
+    </div>
+
+    <div class="skill-card">
+      <i class="fab fa-css3-alt"></i>
+      <span>CSS</span>
+    </div>
+
+    <div class="skill-card">
+      <i class="fab fa-js"></i>
+      <span>JavaScript</span>
+    </div>
+
+    <div class="skill-card">
+      <i class="fab fa-java"></i>
+      <span>Java</span>
+    </div>
+
+    <div class="skill-card">
+      <i class="fas fa-database"></i>
+      <span>MySQL</span>
+    </div>
+
+    <div class="skill-card">
+      <i class="fab fa-git-alt"></i>
+      <span>Git</span>
+    </div>
+
+    <div class="skill-card">
+      <i class="fas fa-code"></i>
+      <span>VS Code</span>
+    </div>
+
+  </div>
+</div>
+
+
+</section>
+
+
+
+  <!-- Projects -->
+<section id="projects" class="projects">
+
+  <h2 class="section-title">Projects</h2>
+
+  <div class="projects-container">
+
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>
+        A personal portfolio website built using HTML, CSS, and JavaScript with
+        animations and responsive design.
+      </p>
+      <a href="#" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Student Management System</h3>
+      <p>
+        A Java & MySQL based application to manage student records efficiently.
+      </p>
+      <a href="#" target="_blank">View Project</a>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+  <!-- Contact -->
+<section id="contact" class="contact">
+
+  <h2 class="section-title">Contact Me</h2>
+
+  <div class="contact-box">
+
+    <p>📞 <a href="tel:+917205875472">+91 7205875472</a></p>
+
+    <p>✉️ <a href="mailto:prangyab992@gmail.com">prangyab992@gmail.com</a></p>
+
+    <p>📍 
+      <a href="https://maps.google.com" target="_blank">
+        Bhubaneswar, Odisha, India
+      </a>
+    </p>
+
+  </div>
+
+   <!--Social media links-->
+   <div class="social-links">
+
+  <a href="https://github.com/Pran720" target="_blank">
+    <i class="fab fa-github"></i>
+  </a>
+
+  <a href="https://www.linkedin.com/in/prangya-paramita-b-5a490333b" target="_blank">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+
+  <a href="https://twitter.com/yourusername" target="_blank">
+    <i class="fab fa-x-twitter"></i>
+  </a>
+
+  <a href="https://www.instagram.com/miss_prangya01" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+</div>
+
+<!-- Contact Form -->
+<div class="contact-form-box">
+
+  <h3>Send Me a Message</h3>
+
+  <form id="contact-form">
+
+    <div class="input-group">
+      <input type="text" name="name" required>
+      <label>Your Name</label>
+    </div>
+
+    <div class="input-group">
+      <input type="email" name="email" required>
+      <label>Your Email</label>
+    </div>
+
+    <div class="input-group">
+      <textarea name="message" rows="4" required></textarea>
+      <label>Your Message</label>
+    </div>
+
+    <button type="submit" class="send-btn">
+      Send Message
+    </button>
+
+  </form>
+
+  <p id="form-status"></p>
+
+</div>
+
+</section>
+
+
+
+ <!-- JS -->
+   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+   <script src="script.js"></script>
+</body>
+</html>
